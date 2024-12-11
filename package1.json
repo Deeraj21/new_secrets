@@ -1,0 +1,9 @@
+{
+  "name": "vulnerable-ts-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "typescript": "3.7.5",      // Security concerns with older TypeScript versions
+    "lodash": "4.17.15",        // CVE-2020-28500
+    "axios": "0.18.0"           // CVE-2019-10742
+  }
+}
